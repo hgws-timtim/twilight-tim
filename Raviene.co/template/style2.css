@@ -1,0 +1,157 @@
+body {
+    background-image: url(pink.gif);
+    background-color: #000000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    z-index: 1000;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'myfont', Arial, sans-serif;
+    color: rgb(235, 236, 229);
+}
+
+h1 {
+    font-size: 100px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: xx-large;
+    color: rgb(245, 246, 240);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('megalomania___x.ttf');
+}
+
+nav .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+nav .nav-links a {
+    color: white;
+    padding: 10px 20px;
+    font-family: fantasy;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    height: calc(100vh - 70px);
+    max-height: calc(100vh - 70px);
+    margin-top: 100px; /* Ensure it doesn't get hidden by the fixed navbar */
+}
+
+.left_wrapper {
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top: 4rem;
+}
+
+.left_wrapper .heading h1 {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.left_wrapper .heading p {
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    margin-bottom: 30px;
+ 
+}
+
+.left_wrapper .btn__container {
+    display: flex;
+    align-items: center;
+}
+
+.left_wrapper .btn__container button {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: 1px solid rgb(110, 122, 154);
+    background: rgb(175, 187, 205);
+}
+
+.left_wrapper .btn__container button.start {
+    margin-right: 20px;
+    color: rgb(124, 126, 98);
+    background: rgb(201, 196, 173);
+}
+
+.left_wrapper .btn__container button.start:hover {
+    background: rgb(134, 155, 139);
+    color: rgb(205, 255, 3);
+}
+
+.left_wrapper .text_container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.left_wrapper .text_container p {
+    color: rgb(56, 67, 75);
+}
+
+
+.left_wrapper .text_container .icons {
+    display: flex;
+    align-items: center;
+}
+
+.left_wrapper .text_container .icons p {
+    margin: 0 5px;
+    color: rgb(49, 58, 66);
+}
+
+.right_wrapper img {
+    width: 90%;
+    padding-top: 12rem;
+    
+}

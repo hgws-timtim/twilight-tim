@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Clothing Brand</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Twilight</h1>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Products</a>
+                    <a href="podcast.html">Podcast</a>
+                    <a href="login.html">login</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<br>
+<br>
+<br>
+    <center>
+        <h5>"not day not night,Twilight, embrace the in-between"</h5>
+        <section class="new-launch">
+            <h2>New Launch</h2>
+        </section>
+        <br><br>
+    </center>
+
+    <section class="products">
+        <div class="product">
+            <img src="shirt.png" alt="Product 1">
+            <h3>Shirt</h3>
+            <p>$99.99</p>
+        </div>           
+        <div class="product">
+            <img src="shirt.png" alt="Product 2">
+            <h3>Jorts</h3>
+            <p>$85.00</p>                 
+        </div>
+        <div class="product">
+            <img src="shirt.png" alt="Product 2">
+            <h3>Jorts</h3>
+            <p>$85.00</p>                 
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br>
+
+    <section class="about">
+        <div class="main">
+            <img src="lala.gif">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Twilight is a forever transforming brand. The reason why I created the brand 'TWILIGHT' is to express change and transforming as a person that can be embodied in style, and how abstract your change can be which is represented in my design. Why is this important? It's important because it is necessary to understand that things don't always stay the same and that change is important. These also tie into my goals which are to spread realness and creativity.</p>
+            </div>
+        </div>
+    </section>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <footer>
+        <div class="contact-info">
+            <p>Email: Raeviene.co@gmail.com</p>
+            <p>Phone: +5109329791</p>
+        </div>
+        <div class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form action="#" method="POST" class="newsletter-form">
+                <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                <button type="submit">Subscribe</button>
+            </form> 
+        </div>
+    </footer>
+    
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+</html>

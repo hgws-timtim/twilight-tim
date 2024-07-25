@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Clothing Brand</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Twilight</h1>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Products</a>
+                    <a href="podcast.html">Podcast</a>
+                    <a href="login.html">login</a>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <style>
+        .header-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+        .product-container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        .product-image {
+            width: 100%;
+            max-width: 500px;
+            border: 5px solid #4c725c95;
+            border-radius: 15px;
+        }
+        .product-description {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #344c6295;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .add-to-cart-button {
+            background: linear-gradient(135deg, #7aa7c0, #faffff);
+            color: #fff;
+            font-size: 18px;
+            padding: 15px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 15px rgba(127, 140, 167, 0.5);
+            display: inline-block;
+            text-align: center;
+        }
+        .add-to-cart-button:hover {
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .related-products {
+            margin-top: 40px;
+        }
+        .related-products h2 {
+            text-align: center;
+            color: #344262b3;
+        }
+        .related-product {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #737ebc90;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .related-product img {
+            width: 100%;
+            max-width: 200px;
+            border: 3px solid #576996c1;
+            border-radius: 10px;
+        }
+        
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+   <br>
+   <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+    <div class="product-container">
+        <img src="shirt.png" alt="Product Image" class="product-image">
+        <h3>Shirt</h3>
+                <p>$99.99</p>
+        <img src="shirt.png" alt="Product Image" class="product-image">
+        <h3>Shirt</h3>
+                <p>$99.99</p>
+
+        <div class="product-description">
+            <h2>Product Name</h2>
+            <p>Product description goes here. Fun and colorful text for Y2K nostalgia!</p>
+        </div>
+        <button class="add-to-cart-button">Add to Cart</button>
+        <section class="products">
+            <div class="product">
+                <img src="shirt.png" alt="Product 1">
+                <h3>Shirt</h3>
+                <p>$99.99</p>
+            </div>           
+            <div class="product">
+                <img src="shirt.png" alt="Product 2">
+                <h3>Jorts</h3>
+                <p>$85.00</p>                 
+            </div>
+            <div class="product">
+                <img src="shirt.png" alt="Product 2">
+                <h3>Jorts</h3>
+                <p>$85.00</p>                 
+            </div>
+        </div>
+    </div>
+    <footer>
+        </div>
+    </footer>
+</body>
+</html>

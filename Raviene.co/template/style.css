@@ -1,0 +1,175 @@
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    z-index: 1000;
+}
+
+body {
+    background-image: url(pink.gif);
+    background-color: #000000;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3 {
+    font: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: myfont;
+    color: white;
+}
+
+h2 {
+    font: bold;
+    font-size: xx-large;
+    text-align: center;
+    font-family: myfont;
+    color: rgb(245, 246, 240);
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(megalomania___x.ttf);
+}
+
+nav .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: rgb(235, 236, 229);
+    margin-bottom: 10px;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+nav .nav-links a {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-family:fantasy;
+    font-weight: bold;
+    text-decoration:underline;
+
+    
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: 325px;
+    display: block;
+}
+
+h1 {
+    color: rgb(235, 236, 229);
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: myfont;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.about-text {
+    max-width: 60%;
+    text-align: left;
+    color: white;
+}
+
+footer {
+    padding: 5px;
+    background: linear-gradient(#000000, #000000, rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    left: 0;
+    bottom: 0;
+    width: 250%;
+    max-width: 1500px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffdea6;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #000000; /* Add a dark-grey background on hover */
+}
+
+h5 {
+    font: bold;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    font-family: myfont;
+}
